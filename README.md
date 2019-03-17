@@ -1,2 +1,2 @@
 # gittest
-To learn git by fouding repo
+To learn git by founding repo
