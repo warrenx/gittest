@@ -1,5 +1,6 @@
 # -*- coding:UTF-8 -*-
 import random
+import re
 
 v = [[0, 0, 0, 0],
      [0, 0, 0, 0],
