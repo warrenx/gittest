@@ -6,7 +6,7 @@ v = [[0, 0, 0, 0],
      [0, 0, 0, 0],
      [0, 0, 0, 0]]
 
-def display(v,    score):
+def display(v, score):
         '''显示界面
         '''
         print('{0:4} {1:4} {2:4} {3:4}'.format(v[0][0], v[0][1], v[0][2], v[0][3]))
@@ -63,14 +63,7 @@ def addSame(vList, direction):
                                 vList[i] = 0
                                 score += vList[i-1]
                                 return {'bool': True, 'score': score}
-        return {'bool': False, 'score': score}
-
-
-
-# handle  ddd
-
-
-
+        return {'bool': False, 'score': score
 
 def handle(vList, direction):
         '''处理一行（列）中的数据，得到最终的该行（列）的数字状态值, 返回得分
