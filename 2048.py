@@ -1,6 +1,5 @@
 # -*- coding:UTF-8 -*-
 import random
-import re
 
 v = [[0, 0, 0, 0],
      [0, 0, 0, 0],
@@ -65,6 +64,12 @@ def addSame(vList, direction):
                                 score += vList[i-1]
                                 return {'bool': True, 'score': score}
         return {'bool': False, 'score': score}
+
+
+
+# handle  ddd
+
+
 
 
 def handle(vList, direction):
